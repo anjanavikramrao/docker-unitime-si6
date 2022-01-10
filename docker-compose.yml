@@ -1,0 +1,10 @@
+version: '3'
+services:
+    unitime-web:
+        container_name: unitime-web
+        build:
+            context: ./docker/tomcat8/
+        ports:
+            - 8080:8080 
+
+
